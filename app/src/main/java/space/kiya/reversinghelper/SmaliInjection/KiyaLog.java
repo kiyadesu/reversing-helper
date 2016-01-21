@@ -10,8 +10,7 @@ import java.util.Arrays;
  */
 
 /*
-* 在反编译的索马里根目录下创建目录 space/kiya/reversinghelper/SmaliInjection/
-* 放入对应 smali 文件,即可调用
+* 在反编译的smali根目录下创建目录 space/kiya/reversinghelper/SmaliInjection/,放入该 smali 文件
 * 调用语句：invoke-static {v1}, Lspace/kiya/reversinghelper/SmaliInjection/KiyaLog;->Log(Ljava/lang/Object;)V
 */
 
