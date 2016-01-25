@@ -12,6 +12,11 @@ import java.util.Arrays;
 /*
 * 在反编译的smali根目录下创建目录 space/kiya/reversinghelper/SmaliInjection/,放入该 smali 文件
 * 调用语句：invoke-static {v1}, Lspace/kiya/reversinghelper/SmaliInjection/KiyaLog;->Log(Ljava/lang/Object;)V
+* unzip test.apk -d test
+* java -jar baksmali.jar classes.dex
+* java -jar smali.jar out
+* 归档管理器打开原apk文件替换classes.dex
+* ./signapk.sh test.apk 签名
 */
 
 public class KiyaLog{
